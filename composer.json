@@ -1,0 +1,19 @@
+{
+    "name": "akmalhazim24/telegram-monolog",
+    "description": "A lumen-based telegram monolog driver.",
+    "authors": [
+        {
+            "name": "Akmal Hazim",
+            "email": "akmalhazim@inspyrehosting.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Telegram\\TelegramServiceProvider"
+            ]
+        }
+    }
+}
